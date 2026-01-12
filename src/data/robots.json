@@ -1,0 +1,59 @@
+[
+  {
+    "nombre": "Focalors",
+    "estado": "mantenimiento",
+    "peso": "438 g",
+    "control": "Autónomo",
+    "sensores": "Dos sensores Sensor QRE1113 Seguidor de Línea Reflectivo Analógico y dos sensores frontales Sensores Infrarrojo Sharp GP2Y0A21YK0F",
+    "descripcion": "Robot rápido y estable con uan velocidad de respuesta optima.",
+    "imagen": "/Robots/Focalors.jpeg"
+  },
+  {
+    "nombre": "Orfevre",
+    "estado": "mantenimiento",
+    "peso": "320 g",
+    "control": "Rc",
+    "sensores": "no cuenta con sensores ",
+    "descripcion": "Optimizado para empuje frontal.",
+    "imagen": "/Robots/chicatana2.jpg"
+  },
+
+  {
+    "nombre": "TechNight",
+    "estado": "mantenimiento",
+    "peso": "325 g",
+    "control": "Autónomo",
+    "sensores": "IR + Ultrasonido",
+    "descripcion": "Robot rápido y estable para mini sumo.",
+    "imagen": "/Robots/chicatana1.jpg"
+  },
+  {
+    "nombre": "Ferina",
+    "estado": "mantenimiento",
+    "peso": "340 g",
+    "control": "Rc",
+    "sensores": "no cuenta con sensores ",
+    "descripcion": "Optimizado para empuje frontal.",
+    "imagen": "/Robots/chicatana2.jpg"
+  },
+  {
+    "nombre": "Axolotl",
+    "estado": "mantenimiento",
+    "peso": "340 g",
+    "control": "Rc",
+    "sensores": "no cuenta con sensores ",
+    "descripcion": "Optimizado para empuje frontal.",
+    "imagen": "/Robots/chicatana2.jpg"
+  },
+  {
+    "nombre": "Miquiztli",
+    "estado": "mantenimiento",
+    "peso": "? g",
+    "control": "Autónomo",
+    "sensores": "Dos sensores Sensor QRE1113 Seguidor de Línea Reflectivo Analógico",
+    "descripcion": "Optimizado para empuje frontal.",
+    "imagen": "/Robots/chicatana2.jpg"
+  }
+]
+
+

@@ -1,0 +1,249 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Contenedor principal */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #0a0a23; /* Fondo general */
+  color: #f0f0f0;           /* Texto principal */
+}
+
+/* ===== HEADER ===== */
+.header {
+  padding: 1rem 2rem;
+  background-color: #0a0a23;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Logo club izquierda, universidad derecha */
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo-small {
+  height: 50px; /* Logo club */
+  width: auto;
+  border-radius: 8px;
+}
+
+.logo-universidad {
+  height: 50px; /* Logo universidad */
+  width: auto;
+  border-radius: 8px;
+}
+
+.club-name {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  color: #ffd700;
+}
+
+.club-subtitle {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Responsive header */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .club-name {
+    font-size: 1.5rem;
+  }
+
+  .logo-small,
+  .logo-universidad {
+    height: 40px;
+  }
+}
+
+/* ===== LOGO GRANDE (si se usa en otras partes) ===== */
+.logo {
+  display: block;
+  margin: 0 auto 1rem auto;
+  height: 6em;
+  width: auto;
+  padding: 1rem 0;
+  transition: filter 0.3s;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/* ===== ROBOTS ===== */
+.robots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.robot-card {
+  background: #11112a;
+  border-radius: 16px;
+  padding: 1rem;
+  position: relative;
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.robot-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(250, 204, 21, 0.3);
+}
+
+/* Imagen global de robots */
+.robot-card img {
+  width: 100%;
+  max-width: 300px; /* Cambia este valor para agrandar/reducir todas las imágenes */
+  height: auto;
+  border-radius: 12px;
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.robot-card img:hover {
+  transform: scale(1.05);
+}
+
+.robot-card h3 {
+  margin-top: 0.5rem;
+  color: #ffd700;
+}
+
+.robot-card ul {
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.estado {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.robot-card.activo .estado {
+  background: #22c55e;
+  color: #022c22;
+}
+
+.robot-card.mantenimiento .estado {
+  background: #f97316;
+  color: #431407;
+}
+
+/* ===== MIEMBROS ===== */
+.members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.member-card {
+  background: #1b1b38;
+  border-radius: 16px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(100, 108, 255, 0.2);
+}
+
+.member-card img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* ===== COMPETENCIAS ===== */
+.competitions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.competition-card {
+  background: #11112a;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 0 15px rgba(100, 108, 255, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.competition-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(100, 108, 255, 0.2);
+}
+
+.competition-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  margin-top: 2rem;
+  color: #888;
+}

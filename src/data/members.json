@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Nombre Apellido",
+    "rol": "Capitán / Programación",
+    "semestre": "6° semestre",
+    "foto": "/members/member1.jpg"
+  },
+  {
+    "nombre": "Nombre Apellido",
+    "rol": "Electrónica",
+    "semestre": "4° semestre",
+    "foto": "/members/member2.jpg"
+  },
+   {
+    "nombre": "Nombre Apellido",
+    "rol": "Electrónica",
+    "semestre": "4° semestre",
+    "foto": "/members/member2.jpg"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+  "nombre": "Xmas",
+  "año": 2025,
+  "resultado": "ocatvos de final ",
+  "robot": "Ferina,Waluigi",
+  "imagen": "/Competitions/XMAS.jpeg"
+},
+  {
+  "nombre": "Robot God Olympics",
+  "año": 2025,
+  "resultado": "Cuartos de final ",
+  "robot": "Focalors y Waluigi",
+  "imagen": "/Competitions/olympics.jpeg"
+},
+{
+  "nombre": "Feria de Ciencias Esime AZca",
+  "año": 2025,
+  "resultado": "Exhibición",
+  "robot": "Todos los minis",
+  "imagen": "/Competitions/Feria.jpeg"
+}
+]
